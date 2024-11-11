@@ -1,0 +1,357 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+
+.mainbox {
+  width: 1006px;
+   /* will be removed later */
+  background-color: white;
+  border: 3px solid gray;
+  margin: auto;
+  margin-top: 20px;
+  text-align: left;
+}
+.mainbox img{
+  margin-left: 1px;
+}
+
+nav{
+  width: 1000px;
+  height: 100px;
+  display: block;
+}
+
+
+.navboxleft{
+  width: 250px;
+  height: 100px;
+  
+  float: left;
+}
+.navboxmiddle{
+  width: 400px;
+  height: 50px;
+  margin-top: 35px;
+  float: left;
+}
+
+.navboxright{
+  width: 300px;
+  height: 50px;
+  margin-top: 25px;
+  margin-right: 50px;
+  float: right;
+  text-align: right;
+}
+input[type=button]{
+  background-color: rgb(43, 41, 41);
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+ font-size: 12pt;
+  cursor: pointer;
+}
+
+
+
+
+nav ul{
+
+ 
+
+  background-color: white;
+}
+
+nav a:link{
+
+  text-decoration: none;
+  font-size: 18pt;
+  color: black;
+  font-family:"Courier New", Courier, monospace;
+
+
+  
+}
+nav a:hover{
+  font-size: 18pt;
+  text-decoration: underline overline;
+
+  background-color: rgb(244, 244, 126);
+  
+  
+  }
+  nav a:visited{
+      font-size: 20pt;
+      text-align: center;
+      text-decoration: none;
+      color: black;
+      
+  }
+   
+
+
+
+.redtext{
+  
+  font-weight: 700;
+  font-style: oblique;
+  text-shadow: 0 0 3px #FF0000;
+}
+
+
+.coverpic img{
+  box-shadow: 0px 0px 15px currentcolor; 
+
+}
+.menuebox{
+  width: 902px;
+  height: 880px;
+  margin-bottom: 10px;
+  }
+  .menuebox h5{
+    font-size: 14pt;
+
+  }
+  .menuebox p{
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+  }
+
+
+  .menueboxsec1{
+    width: 902px;
+    height: 400px;
+    
+   
+  }
+  .menueboxsec2{
+    width: 902px;
+    height: 400px;
+    
+
+  }
+  .menueboxpic{
+    width: 225px;
+    height: 450px;
+    margin-top: 2px;
+    
+    float: left;
+  }
+ 
+  
+  .menueboxpic img{
+
+  box-shadow: 0px 0px 15px currentcolor;
+  transition: width 2s, height 2s, transform 4s;
+}
+
+.menueboxpic img:hover {
+  width: 225px;
+  height: 300px;
+  transform: rotate(360deg);
+}
+ 
+.coverpic{
+  width: 1000px;
+  height: 450px;
+}
+
+.textsextion{
+  width: 700px;
+  height: 200px;
+  margin-top: 20px;
+  font-size: 30pt;
+  font-family:'Times New Roman', Times, serif;
+}
+.garybox{
+  width: 900px;
+  height: 60px;
+  background-color: lightgray;
+}
+.garybox h1{
+  padding-top: 10px;
+  font-size: 22pt;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.tbox{
+  width: 900px;
+  height: 350px;
+ 
+}
+table{
+  font-size: 25pt;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td{
+  font-size: 15pt;
+}
+td a{
+  color: white;
+  font-weight: 700;
+}
+th,td{
+  padding: 15px;
+}
+th{
+  text-align: left;
+ 
+  background-color: rgb(43, 41, 41);
+      color: white
+    
+}
+hr{
+  width: 800px;
+  color: red;
+  box-shadow: 0px 0px 15px currentcolor;
+  
+}
+
+
+.aboutbox{
+  width: 900px;
+  height: 450px;
+  margin-top: 20px;
+  background-color: #F8F8F9;
+  box-shadow: 0px 0px 15px currentcolor;
+
+}
+.aboutbox h2{
+
+  font-family: 'Times New Roman', Times, serif
+}
+.aboutbox p{
+  font-style: italic;
+  color: red;
+  text-align:center;
+  text-shadow: 0px 0px 15px currentcolor;
+ 
+  
+}
+.aboutbox h2{
+  text-shadow: 0 0 3px #FF0000;
+}
+.aboutbox img{
+  
+  margin-right: 10px;
+  box-shadow: 0px 0px 15px currentcolor;
+
+}
+
+
+
+
+footer{
+ 
+  width: 1000px;
+  height: 300px;
+  background-color: rgb(43, 41, 41);
+  margin-top: 50px;
+}
+.footerboxleft{
+  width: 300px;
+  height: 300px;
+  float: left;
+
+}
+.footerboxmid{
+  width: 400px;
+  height: 300px;
+  float: left;
+}
+.footerboxmidsec1{
+  width: 400px;
+  height: 250px;
+
+}
+.footerboxmidsec1 p{
+  color: white;
+  font-weight: 700;
+  padding-top: 100px;
+  margin-left: 100px;
+
+}
+.footerboxmidsec2{
+  width: 400px;
+  height: 50px;
+
+}
+.footerboxmidsec2 p{
+  color: white;
+  font-weight: 700;
+  padding-top: 20px;
+  margin-left: 100px;
+  
+
+}
+
+.footerboxright{
+  width: 300px;
+  height: 300px;
+  float: right;
+
+}
+.footerboxmidsec1 h2 {
+  padding-top: 100px;
+  margin-left: 150px;
+}
+.footerboxmidsec1 h2 a{
+  font-size: 16pt;
+  color: white;
+}
+
+footer h1{
+  font-size: 16pt;
+  font-family:fantasy;
+  color: white;
+  margin-top: 100px;
+  margin-left: 20px;
+  text-shadow: 0px 0px 15px currentcolor;
+
+}
+.footerboxleft p{
+  color: white;
+  font-weight: 700;
+  margin-top: 100px;
+  margin-left: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
